@@ -3,15 +3,14 @@
 <head lang="es">
     <meta charset="UTF-8">
     <title>Cameselle</title>
-    <meta charset="utf-8"/>
     <meta name="Description" content="Aquí encontrarás información sobre: nuestra Empresa; nuestro catálogo de productos; algunas de las instalaciones que hemos realizado."/>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="static/style.css"/>
 </head>
 <body>
     <header class="header--header">
+        <div class="absolute--header"><small>Talleres Cameselle S.L.U. | <a class="ancla--header" href="#">Aviso legal</a></small></div>
         <div class="text--header">
             <h1 class="header--uno">Cameselle</h1>
             <h2 class="header--dos">Maquinaria e instalaciones para la industria alimentaria</h2>
@@ -19,23 +18,23 @@
     </header>
     <nav class="navigation">
         <ul>
-            <li class="list--item">Empresa</li>
-            <li class="list--item medium--item">Productos</li>
-            <li class="list--item">Instalaciones</li>
+            <li class="list--item"><a href="Templates/empresa.html">Empresa</a></li>
+            <li class="list--item medium--item"><a href="Templates/productos.html">Productos</a></li>
+            <li class="list--item"><a href="Templates/instalaciones.html">Instalaciones</a></li>
         </ul>
     </nav>
     <h3 class="header--main">Bienvenidos a nuestro sitio web donde encontrareis información sobre:</h3>
     <section class="main">
         <div class="caja--mainUno cajasImg">
-            <p class="parrafo--main">Nuestra Empresa</p>
+            <p class="parrafo--main"><span class="icon-settings_power"></span> Nuestra Empresa</p>
             <img src="static/img/landing/empresa.jpg" class="none"  alt=""/>
         </div>
         <div class="caja--mainDos cajasImg">
-            <p class="parrafo--main">Nuestro catálogo de productos</p>
+            <p class="parrafo--main"><span class="icon-cart"></span> Nuestro catálogo de productos</p>
             <img src="static/img/landing/producto.jpg" class="none" alt=""/>
         </div>
         <div class="caja--mainTres cajasImg">
-            <p class="parrafo--main">Algunas de las instalaciones que hemos realizado</p>
+            <p class="parrafo--main"><span class="icon-directions_walk"></span> Algunas de las instalaciones que hemos realizado</p>
             <img src="static/img/landing/instalaciones.jpg" class="none" alt=""/>
         </div>
     </section>

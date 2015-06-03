@@ -1,8 +1,116 @@
+@font-face {
+  font-family: 'Grabular';
+  src:url('fonts/graublausansdisplay-light-webfont.eot');
+}
+
+@font-face{
+  font-family 'Grabular'
+  src:url('fonts/graublausansdisplay-light-webfont.ttf');
+}
+@font-face{
+  font-family 'Grabular'
+  src:url('fonts/graublausansdisplay-light-webfont.woff');
+}
+@font-face{
+  font-family 'Grabular-regular'
+  src:url('fonts/graublauslab-regular-webfont.eot');
+}
+@font-face{
+  font-family 'Grabular-regular'
+  src:url('fonts/graublauslab-regular-webfont.ttf');
+}
+@font-face{
+  font-family 'Grabular-regular'
+  src:url('fonts/graublauslab-regular-webfont.woff');
+}
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-w8elhw');
+  src:url('fonts/icomoon.eot?#iefix-w8elhw') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?-w8elhw') format('truetype'),
+  url('fonts/icomoon.woff?-w8elhw') format('woff'),
+  url('fonts/icomoon.svg?-w8elhw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-directions_walk:before {
+  content: "\e601";
+  font-size 2rem
+  color #FFC93C
+}
+.icon-settings_power:before {
+  content: "\e600";
+  font-size 2rem
+  color #FFC93C
+}
+.icon-cart:before {
+  content: "\e93a";
+  font-size 2rem
+  color #FFC93C
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('flecha-ico/icomoon.eot?pkarnv');
+  src:url('flecha-ico/icomoon.eot?#iefixpkarnv') format('embedded-opentype'),
+  url('flecha-ico/icomoon.ttf?pkarnv') format('truetype'),
+  url('flecha-ico/icomoon.woff?pkarnv') format('woff'),
+  url('flecha-ico/icomoon.svg?pkarnv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tab:before {
+  content: "\ea45";
+  font-size 2rem
+  text-align center
+  margin 0 auto
+}
+
+a
+  text-decoration none
+  color inherit
+
 body
-  font-family: 'Roboto', sans-serif;
+  font-family: "Grabular", 'Roboto'
   font-size 16px
   margin 0
   padding 0
+
+figure
+  margin 0
 
 html
   box-sizing border-box
@@ -22,6 +130,26 @@ ul, li
 *:after, *:before
   box-sizing inherit
 
+.ancla--header
+  text-decoration underline
+
+.article--productos
+  border 2px dashed #808080
+  display inline-block
+  margin 2rem auto
+  text-align  left
+  padding 0 .5rem
+  vertical-align top
+  max-width 320px
+
+.absolute--header
+  color #ffffff
+  text-shadow 2px 2px 2px #808080
+  padding-right 1rem
+  position absolute
+  top 0
+  right 0
+
 .caja--mainUno
   background #3B6D7F
 
@@ -40,7 +168,7 @@ ul, li
   transition all .5s linear
 
 .caja--mainUno:hover, .caja--mainDos:hover, .caja--mainTres:hover
-  transform rotateY(360deg)
+  transform rotateY(180deg)
 
 .cajasImg
   cursor pointer
@@ -53,6 +181,14 @@ ul, li
 .cajasImg:hover > .parrafo--main
   display none
 
+figcaption
+  text-align center
+  margin 0 auto
+
+.figure
+  display inline-block
+
+
 .footer
   background #C3EFFF
   color #808080
@@ -61,17 +197,27 @@ ul, li
 
 .header--dos
   color #fff
-  font-size 1.5rem
+  font-family Grabular-regular
+  font-size 1.9rem
   font-weight 400
   text-shadow 2px 2px 2px #808080
 
 .header--footer
+  font-family 'Grabular-regular'
   text-align center
   padding-top 2rem
 
+.header--footer2
+  font-family 'Grabular-regular'
+  text-align center
+  padding-top 0
+
 .header--header
-  height 300px
   background #77DAFF
+  /*background-image url("img/landing/background.jpg")*/
+  background-size cover
+  height 360px
+  font-weight 400
   padding-top 2rem
   width 100%
 
@@ -82,8 +228,9 @@ ul, li
 
 .header--uno
   color #ffffff
-  font-size 2rem
-  font-weight 400
+  font-family 'Grabular-regular'
+  font-size 2.5rem
+  font-weight 700
   text-shadow 2px 2px 2px #808080
 
 .list--item
@@ -107,6 +254,27 @@ ul, li
   max-width 100%
   text-align center
 
+.main--empresa
+  max-width 800px
+  padding 1.2rem
+  margin 0 auto
+  text-align justify
+
+.scroll {
+  overflow: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll__wrap {
+  white-space: nowrap;
+}
+.scroll__card {
+  width: 380px;
+  height 300px
+  display: inline-block;
+  white-space: normal;
+}
+
 .medium--item
   border-left  1px solid #000
   border-right  1px solid #000
@@ -118,6 +286,12 @@ ul, li
 
 .none
   display none
+
+.trabajos
+  text-align center
+
+.parrafo--empresa
+  font-size 1.5rem
 
 .parrafo--leftFooter
   display inline-block
@@ -141,6 +315,9 @@ ul, li
   max-width 400px
   text-align left
 
+.underline
+  text-decoration underline
+
 @media screen and (max-width: 1000px)
   .main
     flex-wrap wrap
@@ -148,7 +325,7 @@ ul, li
   .caja--mainUno, .caja--mainDos, .caja--mainTres
     width 100%
 
-@media screen and (max-width: 750px)
+@media screen and (max-width: 790px)
   .parrafo--leftFooter
     padding-top .5rem
 
