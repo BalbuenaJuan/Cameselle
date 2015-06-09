@@ -2,7 +2,6 @@
   font-family: 'Grabular';
   src:url('fonts/graublausansdisplay-light-webfont.eot');
 }
-
 @font-face{
   font-family 'Grabular'
   src:url('fonts/graublausansdisplay-light-webfont.ttf');
@@ -114,6 +113,13 @@ figure
 
 html
   box-sizing border-box
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+
+*:after, *:before
+  box-sizing inherit
 
 p
   color #808080
@@ -127,8 +133,6 @@ ul, li
   margin 0
   width 100%
 
-*:after, *:before
-  box-sizing inherit
 
 .ancla--header
   text-decoration underline
@@ -165,7 +169,7 @@ ul, li
   height 50vh
   text-align center
   width 33.333%
-  transition all .5s linear
+  transition all .3s linear
 
 .caja--mainUno:hover, .caja--mainDos:hover, .caja--mainTres:hover
   transform rotateY(180deg)
@@ -214,7 +218,7 @@ figcaption
 
 .header--header
   background #77DAFF
-  /*background-image url("img/landing/background.jpg")*/
+  background-image url("img/landing/background.jpg")
   background-size cover
   height 360px
   font-weight 400
@@ -228,9 +232,10 @@ figcaption
 
 .header--uno
   color #ffffff
-  font-family 'Grabular-regular'
-  font-size 2.5rem
+  font-family "Grabular-regular"
+  font-size 2.7rem
   font-weight 700
+  font-style normal
   text-shadow 2px 2px 2px #808080
 
 .list--item
@@ -247,6 +252,13 @@ figcaption
   background #C3EFFF
   background-size cover
   color #62777F
+
+.logo
+  position absolute
+  top 10px
+  left 10px
+  width 250px
+  height 110px
 
 .main
   display flex
@@ -274,6 +286,7 @@ figcaption
   display: inline-block;
   white-space: normal;
 }
+
 
 .medium--item
   border-left  1px solid #000
