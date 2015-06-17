@@ -4,6 +4,8 @@
 
 /*global window */
 /*global document */
+
+//@prepros-prepend main.js
 (function() {
     'use strict';
 
