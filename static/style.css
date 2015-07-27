@@ -97,6 +97,12 @@
   font-size: 24px;
   color: #cd5c5c;
 }
+.icon-minus-circle:hover {
+  cursor: pointer;
+}
+.icon-plus-circle:hover {
+  cursor: pointer;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -191,7 +197,7 @@ li {
   display: none;
 }
 .dashed {
-  border-bottom: 2px dashed #808080;
+  text-decoration: underline;
 }
 figcaption {
   text-align: center;

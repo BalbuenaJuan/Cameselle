@@ -167,7 +167,7 @@ var iconElement3 = document.getElementById('mas3');
     iconElement3.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElemen3t, options, function() {
+        iconate(iconElement3, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -439,7 +439,7 @@ var iconElement19 = document.getElementById('mas19');
     iconElement19.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement19, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -456,7 +456,7 @@ var iconElement20 = document.getElementById('mas20');
     iconElement20.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement20, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -473,7 +473,7 @@ var iconElement21 = document.getElementById('mas21');
     iconElement21.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement21, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -490,7 +490,7 @@ var iconElement22 = document.getElementById('mas22');
     iconElement22.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement22, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -507,7 +507,7 @@ var iconElement23 = document.getElementById('mas23');
     iconElement23.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement23, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -524,7 +524,7 @@ var iconElement24 = document.getElementById('mas24');
     iconElement24.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement24, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -541,7 +541,7 @@ var iconElement25 = document.getElementById('mas25');
     iconElement25.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement25, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -558,7 +558,7 @@ var iconElement26 = document.getElementById('mas26');
     iconElement26.addEventListener('click', function(e) {
         e.preventDefault();
 
-        iconate(iconElement, options, function() {
+        iconate(iconElement26, options, function() {
             var temp = options.from;
             options.from = options.to;
             options.to = temp;
@@ -566,4 +566,3 @@ var iconElement26 = document.getElementById('mas26');
     });
 
 }());
-
